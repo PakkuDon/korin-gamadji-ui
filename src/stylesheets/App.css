@@ -35,6 +35,11 @@ ul {
 	color: #fff;
 }
 
+.text-white {
+	color: #fff;
+	text-decoration: none;
+}
+
 /* TYPOGRAPHY */
 h1, h2, h3, h4, h5, .heading-small {
 	font-family: 'Droid Serif', serif;
@@ -114,5 +119,6 @@ footer {
 }
 
 .btn-login {
-	background-color: #fff;
+	background-color: #ffd200;
+	margin-right: 12px;
 }

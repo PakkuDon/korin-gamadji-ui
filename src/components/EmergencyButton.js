@@ -6,8 +6,7 @@ export default class EmergencyButton extends React.Component {
     return (
       <div className='emergency-button flex-1'>
         <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect btn-large">
-          I need help now
-          <Link to='/panic'></Link>
+          <Link to='/panic' className="text-white">I need help now</Link>
         </button>
       </div>
     );

@@ -1,8 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
-import logo from '../images/logo.svg';
 import Navbar from './Navbar';
-import EmergencyButton from './EmergencyButton';
 
 export default class Header extends React.Component {
   render() {
