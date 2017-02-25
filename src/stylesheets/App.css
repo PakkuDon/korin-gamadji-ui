@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #222;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -20,4 +22,109 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/* COLORS */
+.emergency-button > button {
+	background-color: #d71920;
+	color: #fff;
+}
+
+.text-white {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, .heading-small {
+	font-family: 'Droid Serif', serif;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.heading-small {
+	color: #fff;
+	opacity: 1;
+}
+
+.heading-gold {
+	color: #ffd200;
+}
+
+.heading-orange {
+	color: #c14e2c;
+	font-weight: 400;
+}
+
+/* POSITIONING */
+.align-left {
+	text-align: left;
+}
+
+
+/* APP HEADER */
+.container {
+  display: flex;
+}
+
+.nav-menu > li {
+	margin: 0 24px 0 6px;
+}
+
+
+/* HOME PAGE */
+.video-wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/* FLEXBOX */
+
+.flex-align-center {
+	align-items: center;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.flex-2 {
+	flex: 2;
+}
+
+.flex-3 {
+	flex: 3;
+}
+
+/* APP FOOTER */
+footer {
+	color: white;
+	margin-top: 16px;
+}
+
+/* EMERGENCY BUTTON */
+.emergency-button {
+}
+
+.btn-large {
+	font-size: 16px;
+	height: 42px;
+}
+
+.btn-login {
+	background-color: #ffd200;
+	margin-right: 12px;
+	border-radius: 2%;
+}
+
+.icon-account {
+	color: #ffd200;
+	font-size: 42px;
 }
