@@ -7,11 +7,9 @@ export default class Navbar extends React.Component {
     return (
       <nav>
         <ul className="container flex-align-center nav-menu">
+          <i className="material-icons icon-account">account_circle</i>
           <li>
-              <button className="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect btn-login">
-                <i className="material-icons">account_circle</i>
-              </button>
-              <Link to='/login'>LOGIN/CREATE ACCOUNT</Link>
+            <Link to='/login'>LOGIN/CREATE ACCOUNT</Link>
           </li>
           <li>
             <EmergencyButton />

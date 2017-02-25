@@ -75,7 +75,7 @@ h1 {
 }
 
 .nav-menu > li {
-	margin: 0 24px;
+	margin: 0 24px 0 6px;
 }
 
 
@@ -121,4 +121,10 @@ footer {
 .btn-login {
 	background-color: #ffd200;
 	margin-right: 12px;
+	border-radius: 2%;
+}
+
+.icon-account {
+	color: #ffd200;
+	font-size: 42px;
 }
