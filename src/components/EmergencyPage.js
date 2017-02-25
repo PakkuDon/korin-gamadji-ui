@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 
 export default class EmergencyPage extends React.Component {
   render() {
@@ -15,7 +14,7 @@ export default class EmergencyPage extends React.Component {
               <li> MensLine Australia 1300 78 99 78 </li>
               <li> QLife 1800 184 527 </li>
             </ul>
-          <li> For a list of resources for various situations visit <a href="https://askizzy.org.au">Ask Izzy</a></li>
+          <li> For a list of situation specific resources visit <a href="https://askizzy.org.au">Ask Izzy</a></li>
         </ul>
 
       </div>
