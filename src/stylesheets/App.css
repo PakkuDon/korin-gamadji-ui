@@ -21,3 +21,59 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+/* COLORS */
+.emergency-button > button {
+	background-color: #d71920;
+	color: #fff;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, .heading-small {
+	font-family: 'Droid Serif', serif;
+}
+
+.heading-small {
+	color: #fff;
+	opacity: 1;
+}
+
+.heading-gold {
+	color: #ffd200;
+}
+
+.heading-orange {
+	color: #c14e2c;
+	font-weight: 400;
+}
+
+/* POSITIONING */
+.align-left {
+	text-align: left;
+}
+
+
+/* APP HEADER */
+.container {
+  display: flex;
+}
+
+.flex-align-center {
+	align-items: center;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.flex-2 {
+	flex: 2;
+}
+
+.flex-3 {
+	flex: 3;
+}
+
+/* EMERGENCY BUTTON */
+.emergency-button {
+}
