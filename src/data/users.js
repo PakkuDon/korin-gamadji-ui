@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     name: 'Bobby Tables',
     email: 'bobby@example.com',
     password: 'cakepudding',
@@ -7,15 +8,15 @@ export default [
     mentoring: []
   },
   {
+    id: 2,
     name: 'Alba Hurley',
     email: 'a.hurley@myemail.com.au',
     password: 'password',
-    role: 'mentor',
-    mentoring: [
-      1, 2, 3
-    ]
+    role: 'mentee',
+    mentoring: []
   },
   {
+    id: 3,
     name: 'Shawn',
     email: 'shawn@example.com',
     password: 'password',
@@ -23,6 +24,7 @@ export default [
     mentoring: []
   },
   {
+    id: 4,
     name: 'Jessica',
     email: 'jesicca@gmail.com',
     password: 'abc123',
@@ -32,8 +34,9 @@ export default [
     ]
   },
   {
-    name: 'Kinna',
-    email: 'kinna@gmail.com',
+    id: 5,
+    name: 'Janine',
+    email: 'janine@gmail.com',
     password: 'password',
     role: 'mentor',
     mentoring: [

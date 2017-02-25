@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import users from '../data/users';
 import topics from '../data/topics';
+import threads from '../data/threads';
 
 class App extends Component {
   constructor(props) {
@@ -16,6 +17,10 @@ class App extends Component {
       availableTopics: {
         isLoading: true,
         topics: []
+      },
+      topicThreads: {
+        isLoading: true,
+        threads: []
       }
     }
   }
@@ -29,6 +34,10 @@ class App extends Component {
       availableTopics: {
         isLoading: false,
         topics: topics
+      },
+      topicThreads: {
+        isLoading: false,
+        threads: threads
       }
     });
   }
