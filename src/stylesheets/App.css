@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #222;
   min-height: 100vh;
 }
 
@@ -10,7 +9,6 @@
 }
 
 .App-header {
-  background-color: #222;
   padding: 20px;
   color: white;
 }
@@ -27,6 +25,10 @@
 ul {
 	list-style: none;
 	padding: 0;
+}
+
+.pad-right-1 {
+	padding-right: 1em;
 }
 
 /* COLORS */
@@ -58,9 +60,17 @@ h1 {
 	color: #ffd200;
 }
 
+.bg-yellow {
+	background-color: #ffd200;
+}
+
 .heading-orange {
 	color: #c14e2c;
 	font-weight: 400;
+}
+
+.bg-darkgrey {
+	background-color: #2A2A2A;
 }
 
 /* POSITIONING */
@@ -89,6 +99,10 @@ h1 {
 
 .flex-align-center {
 	align-items: center;
+}
+
+.flex-align-horizontal {
+	justify-content: center;
 }
 
 .flex-1 {
@@ -128,3 +142,48 @@ footer {
 	color: #ffd200;
 	font-size: 42px;
 }
+
+/* LOGIN */
+
+.login-page {
+/*	margin: 0 auto;*/
+	color: #fff;
+}
+
+.login-inputs {
+	width: 80%;
+}
+
+.login-page > .mdl-card {
+	width: 60%;
+}
+
+.login-page > h1 {
+	font-size: 16px;
+}
+
+.mdl-card__supporting-text {
+	width: 97%;
+}
+
+.text-white {
+	color: white;
+}
+
+.bg-light-grey {
+	background-color: #DBDBD9;
+}
+
+.mdl-card__title-text {
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+/* INPUTS */
+.mdl-textfield {
+	display: block;
+	width: 100%;
+}
+
+
+
