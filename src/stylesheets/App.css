@@ -24,6 +24,11 @@
   to { transform: rotate(360deg); }
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+}
+
 /* COLORS */
 .emergency-button > button {
 	background-color: #d71920;
@@ -33,6 +38,10 @@
 /* TYPOGRAPHY */
 h1, h2, h3, h4, h5, .heading-small {
 	font-family: 'Droid Serif', serif;
+}
+
+h1 {
+	font-size: 48px;
 }
 
 .heading-small {
@@ -60,10 +69,15 @@ h1, h2, h3, h4, h5, .heading-small {
   display: flex;
 }
 
+.nav-menu > li {
+	margin: 0 24px;
+}
+
 
 /* HOME PAGE */
 .video-wrapper {
-
+	max-width: 80%;
+	margin: 0 auto;
 }
 
 /* FLEXBOX */
@@ -99,3 +113,6 @@ footer {
 	height: 42px;
 }
 
+.btn-login {
+	background-color: #fff;
+}
