@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #222;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -58,6 +60,14 @@ h1, h2, h3, h4, h5, .heading-small {
   display: flex;
 }
 
+
+/* HOME PAGE */
+.video-wrapper {
+
+}
+
+/* FLEXBOX */
+
 .flex-align-center {
 	align-items: center;
 }
@@ -74,6 +84,18 @@ h1, h2, h3, h4, h5, .heading-small {
 	flex: 3;
 }
 
+/* APP FOOTER */
+footer {
+	color: white;
+	margin-top: 16px;
+}
+
 /* EMERGENCY BUTTON */
 .emergency-button {
 }
+
+.btn-large {
+	font-size: 16px;
+	height: 42px;
+}
+
