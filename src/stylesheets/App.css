@@ -221,3 +221,7 @@ label {
 	flex-direction: column;
 }
 
+.resource-list {
+  font-size: larger;
+  color: white;
+}
