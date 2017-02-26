@@ -5,7 +5,7 @@ export default class Spinner extends React.Component {
     return (
       this.props.isLoading ? (
         <div className='mdl-spinner mdl-js-spinner is-active'></div>
-      ) : ''
+      ) : <div></div>
     );
   }
 }

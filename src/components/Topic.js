@@ -1,9 +1,36 @@
 import React from 'react';
 import { Link } from 'react-router';
 import image from '../images/indigenous_m2081546.jpg';
+import Spinner from './Spinner';
+import topics from '../data/topics';
+import threads from '../data/threads';
 
 export default class Topic extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isLoading: true
+    }
+  }
+
+  componentDidMount() {
+    setTimeout(() => {
+      var topic = topics.find(t => t.id === parseInt(this.props.params.id));
+      var topicThreads = threads.filter(thread => thread.topic_id === parseInt(this.props.params.id));
+      if (topic && topicThreads) {
+        this.setState({
+          topic,
+          threads: topicThreads
+        });
+      }
+      this.setState({
+        isLoading: false
+      });
+    }, 5000);
+  }
+
   render() {
+    var { topic, threads } = this.state;
     return (
       <div className="topic">
         <h1>Depression</h1>
@@ -24,7 +51,6 @@ export default class Topic extends React.Component {
 						<li>When people feel sad or ‘down’ for a long time, usually for longer than 2 weeks, they may be depressed. Depression can affect anyone at any age.  </li>
 					</ul>
         </div>
-
       </div>
     );
   }
