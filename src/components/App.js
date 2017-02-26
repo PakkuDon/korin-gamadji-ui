@@ -26,20 +26,23 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({
-      userList: {
-        isLoading: false,
-        users: users
-      },
-      availableTopics: {
-        isLoading: false,
-        topics: topics
-      },
-      topicThreads: {
-        isLoading: false,
-        threads: threads
-      }
-    });
+    // Mock loading process
+    setTimeout(() => {
+      this.setState({
+        userList: {
+          isLoading: false,
+          users: users
+        },
+        availableTopics: {
+          isLoading: false,
+          topics: topics
+        },
+        topicThreads: {
+          isLoading: false,
+          threads: threads
+        }
+      });
+    }, 5000);
   }
 
   render() {
