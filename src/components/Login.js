@@ -13,18 +13,23 @@ export default class Login extends React.Component {
 	          </div>
 					  <div className="mdl-card__supporting-text bg-darkgrey">
 					  	<div className="login-inputs">
-								<form action="#">
-								  <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-								    <input className="mdl-textfield__input bg-light-grey" type="email" id="sample1"/>
-								    <label className="mdl-textfield__label" htmlFor="sample1">Email</label>
-								  </div>
+								<form className="container flex-align-horizontal direction-col" action="#">
+						      <div className="input-block">
+							      <label for="email">Email</label>
+							      <i className="material-icons form-icon">email</i>
+						        <input type="text" className="form-control" />
+						      </div>
 
-
-								  <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-								    <input className="mdl-textfield__input bg-light-grey" type="email" id="sample2"/>
-								    <label className="mdl-textfield__label" htmlFor="sample2">Password</label>
-								  </div>
+						      <div className="input-block">
+						        <label for="password">Password</label>
+						        <i className="material-icons form-icon">lock</i>
+						        <input type="text" className="form-control"/>
+						      </div>
 								</form>
+							</div>
+
+							<div>
+								<Link className="mdl-button mdl-button--colored mdl-js-button" to="/">LOGIN</Link>
 							</div>
 					  </div>
 				  <div className="mdl-card__actions mdl-card--border bg-darkgrey">
